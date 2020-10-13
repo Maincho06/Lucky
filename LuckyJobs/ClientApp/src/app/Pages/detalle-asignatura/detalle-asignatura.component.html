@@ -1,0 +1,22 @@
+<div class="container pt-5">
+  <div *ngIf="!asignatura">
+    <mat-spinner></mat-spinner>
+  </div>
+  <div *ngIf="asignatura">
+    <h3>Detalle Asignatura</h3>
+    <hr />
+
+    <div class="row mt-3">
+      <h5 class="col-3 col-md-3">Nombre: </h5>
+      <p class="col-1">{{ asignatura.descripcion }}</p>
+    </div>
+    <div class="row mt-2">
+      <h5 class="col-3 col-md-3">Estado: </h5>
+      <p class="col-1">{{ asignatura.estado }}</p>
+    </div>
+
+    <app-table-libro [idAsignatura]="asignatura.id_asig" ></app-table-libro>
+
+  </div>
+</div>
+

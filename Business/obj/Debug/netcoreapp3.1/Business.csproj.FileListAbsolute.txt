@@ -1,0 +1,14 @@
+C:\Users\MAURICIO\source\repos\LuckyJobs\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\MAURICIO\source\repos\LuckyJobs\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\MAURICIO\source\repos\LuckyJobs\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\MAURICIO\source\repos\LuckyJobs\Business\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\MAURICIO\source\repos\LuckyJobs\Business\bin\Debug\netcoreapp3.1\Entity.dll
+C:\Users\MAURICIO\source\repos\LuckyJobs\Business\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\MAURICIO\source\repos\LuckyJobs\Business\bin\Debug\netcoreapp3.1\Entity.pdb
+C:\Users\MAURICIO\source\repos\LuckyJobs\Business\obj\Debug\netcoreapp3.1\Business.csprojAssemblyReference.cache
+C:\Users\MAURICIO\source\repos\LuckyJobs\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\MAURICIO\source\repos\LuckyJobs\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\MAURICIO\source\repos\LuckyJobs\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\MAURICIO\source\repos\LuckyJobs\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\MAURICIO\source\repos\LuckyJobs\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\MAURICIO\source\repos\LuckyJobs\Business\obj\Debug\netcoreapp3.1\Business.pdb

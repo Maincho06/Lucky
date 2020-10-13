@@ -1,0 +1,111 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+/*.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}*/
+
+.mat-table {
+  background-color: transparent !important;
+}
+
+table {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-collapse: collapse;
+  border-radius: 0.5em;
+}
+
+  table tr:last-child td
+  /*To remove the last border*/ {
+    border-bottom: 0 solid
+  }
+
+th.mat-header-cell {
+  text-align: left;
+  max-width: 300px;
+}
+
+.mat-primario {
+  background-color: red;
+}
+
+.mat-success {
+  background-color: #693BB8;
+  color: #fff;
+}
+
+.mat-warning {
+  background-color: #FFBC01;
+  color: #fff;
+}
+
+.mat-info {
+  background-color: #4638CF;
+  color: #fff;
+}
+
+.mat-danger {
+  background-color: #FF0000;
+  color: #fff;
+}
+
+.flex-item-bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-buttom-bottom {
+  z-index: 5;
+  position: fixed;
+  display: flex;
+  align-self: flex-end;
+  bottom: 10%;
+}
+
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  width: 490px;
+}
+
+  .example-button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+  }
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,64 @@
+
+
+  <form autocomplete="off" [formGroup]="forma" (ngSubmit)="save()">
+    <div class="form-group row">
+      <label class="col-2 col-form-label">Descripcion</label>
+      <div class="col-6">
+        <input class="form-control"
+               type="text"
+               placeholder="Descripcion"
+               formControlName="descripcion"
+               [class.is-invalid]="descripcionNoValido">
+        <small *ngIf="descripcionNoValido" class="text-danger">El campo es obligatorio</small>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-2 col-form-label">Stock</label>
+      <div class="col-6">
+        <input class="form-control"
+               type="number"
+               placeholder="Stock"
+               formControlName="stock"
+               [class.is-invalid]="stockNoValido">
+        <small *ngIf="stockNoValido" class="text-danger">El campo es obligatorio</small>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-2 col-form-label">Estado</label>
+      <div class="col-6">
+        <select class="form-control" formControlName="Id_Asig">
+        <option value="-1" disabled> Elija una Asignatura</option>
+        <option *ngFor="let item of listAsignatura" value="{{ item.id_asig }}"> {{ item.descripcion }} </option>
+          <!--<option value="12">Activo</option>-->
+
+        </select>
+
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-2 col-form-label">&nbsp;</label>
+      <div class="input-group col-md-6">
+        <button type="submit" class="btn btn-outline-primary btn-block">
+          Guardar
+        </button>
+      </div>
+    </div>
+
+
+
+
+  </form>
+
+<hr />
+<!--<pre>
+  Estado del formulario {{forma.valid}}
+<br />
+  Status: {{forma.status}}
+</pre>
+
+<pre>
+{{ forma.value | json }}
+</pre>-->
